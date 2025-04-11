@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	background: transparent;
+	overflow: hidden;
+}
+
+.slideshow-wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	background: transparent;
+}
+
+.image-track {
+	display: flex;
+	gap: 20px;
+	animation: scroll-left linear infinite;
+	will-change: transform;
+}
+
+.image-track img {
+	height: 80vh;
+	object-fit: contain;
+	border-radius: 12px;
+	background: #334;
+}
+
+@keyframes scroll-left {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-33.3333%);
+	}
+}
