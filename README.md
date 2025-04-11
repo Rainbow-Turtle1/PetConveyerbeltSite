@@ -12,7 +12,7 @@ Backend repo: https://github.com/Rainbow-Turtle1/roboturtle-bot/tree/master
 
 ### Key Objectives
 - Fetch images securely from the RoboTurtle API.
-- Display these images in an infinitely looping converter belt like slideshow.
+- Display these images in an infinitely looping conveyor  belt like slideshow.
 - Maintain a lightweight and responsive design.
 - Minimize client-side dependencies to maintain performance.
 - Ensure all the images are scaled to the same height to allow for differences in image dimensions
