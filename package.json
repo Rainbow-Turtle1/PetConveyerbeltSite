@@ -1,0 +1,28 @@
+{
+	"name": "botfrontend",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rainbow-Turtle1/PetConveyerbeltSite.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Rainbow-Turtle1/PetConveyerbeltSite/issues"
+	},
+	"homepage": "https://github.com/Rainbow-Turtle1/PetConveyerbeltSite#readme",
+	"description": "",
+	"devDependencies": {
+		"@testing-library/dom": "^10.4.0",
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
+		"jsdom": "^26.0.0"
+	},
+	"jest": {
+		"testEnvironment": "jsdom"
+	}
+}
